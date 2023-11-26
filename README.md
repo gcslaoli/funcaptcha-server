@@ -4,15 +4,11 @@
 
 ## 🔍️ **识别率**
 
----
-
 - 识别率在95%以上, 但是由于图片的多样性, 仍然会有一定的失败率, 请issue反馈, 提供图片.
 
 - Funcaptcha其他类型欢迎PR.
 
 ## 🐅 项目介绍
-
----
 
 ### ⬇️ **部署相关**
 
@@ -28,9 +24,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
-
-### 🖼️ 使用示例
+## 🖼️ 使用示例
 
 - **📡 示例curl命令**:
 
@@ -67,4 +61,4 @@ curl --location --request POST 'http://127.0.0.1:8181/createTask' \
 
 > errorId: 0 表示识别成功\
 > objects: 对应识别结果\
-> 从0开始计数，`"objects": [4]` 表示识别结果为序列4，与手指对应
+> *从0开始计数，`"objects": [4]` 表示识别结果为序列4，与手指对应
